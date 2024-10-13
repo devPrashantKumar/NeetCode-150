@@ -1,27 +1,27 @@
-package LeetCode_217;
+package NeetCode_1_LeetCode_217;
 
 import java.util.Arrays;
-/*
- * Time Complexity : O(nlogn) 
- * time complexity of sorting of an array is O(nlogn)
- * Space Complexity : O(1) 
- * in place sorting
- */
 
-class SolutionSortingTest {
+/*
+Time Complexity : O(n^2)
+Space Complexity : O(1)
+ */
+class SolutionOptimizeBruteForceTest {
     public boolean hasDuplicate(int[] nums) {
-        Arrays.sort(nums);
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == nums[i - 1])
-                return true;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] == nums[j])
+                    return true;
+            }
         }
         return false;
     }
 }
 
-public class SortingTest {
+public class OptimizeBruteForceTest {
+
     public static void main(String[] args) {
-        SolutionSortingTest solution = new SolutionSortingTest();
+        SolutionOptimizeBruteForceTest solution = new SolutionOptimizeBruteForceTest();
         int[] nums1 = { 1, 2, 3, 4, 1, 2, 6, 7, 3, 4 };
         int[] nums2 = { 1, 2, 7, 3, 5 };
         System.out.println("---------------------------------------------------");

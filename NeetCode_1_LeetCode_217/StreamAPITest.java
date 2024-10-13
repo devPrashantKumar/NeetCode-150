@@ -1,27 +1,23 @@
-package LeetCode_217;
+package NeetCode_1_LeetCode_217;
 
 import java.util.Arrays;
 
 /*
-Time Complexity : O(n^2)
-Space Complexity : O(1)
+Time Complexity : O(n) - distinct will take O(n) time
+Space Complexity : O(n) - stream will occupy O(n) space
  */
-class SolutionOptimizeBruteForceTest {
+
+class SolutionStreamAPITest {
     public boolean hasDuplicate(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] == nums[j])
-                    return true;
-            }
-        }
-        return false;
+        long uniqueElement = Arrays.stream(nums).distinct().count();
+        return nums.length!=uniqueElement;
     }
 }
 
-public class OptimizeBruteForceTest {
 
+public class StreamAPITest {
     public static void main(String[] args) {
-        SolutionOptimizeBruteForceTest solution = new SolutionOptimizeBruteForceTest();
+        SolutionStreamAPITest solution = new SolutionStreamAPITest();
         int[] nums1 = { 1, 2, 3, 4, 1, 2, 6, 7, 3, 4 };
         int[] nums2 = { 1, 2, 7, 3, 5 };
         System.out.println("---------------------------------------------------");

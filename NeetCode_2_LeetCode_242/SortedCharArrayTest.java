@@ -1,8 +1,8 @@
-package LeetCode_242;
+package NeetCode_2_LeetCode_242;
 
 import java.util.Arrays;
 
-class SolutionsortedCharArrayTest {
+class SolutionSortedCharArrayTest {
     public boolean isAnagram(String s, String t) {
         char[] charArray1 = s.toCharArray();
         char[] charArray2 = t.toCharArray();
@@ -16,9 +16,9 @@ class SolutionsortedCharArrayTest {
     }
 }
 
-public class sortedCharArrayTest {
+public class SortedCharArrayTest {
     public static void main(String[] args) {
-        SolutionsortedCharArrayTest solution  = new SolutionsortedCharArrayTest();
+        SolutionSortedCharArrayTest solution  = new SolutionSortedCharArrayTest();
         String s1 = "racecar";
         String t1 = "carrace";
         String s2 = "jar";
