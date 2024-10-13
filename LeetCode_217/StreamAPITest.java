@@ -3,8 +3,8 @@ package LeetCode_217;
 import java.util.Arrays;
 
 /*
-Time Complexity : O(n)
-Space Complexity : O(n)
+Time Complexity : O(n) - distinct will take O(n) time
+Space Complexity : O(n) - stream will occupy O(n) space
  */
 
 class SolutionStreamAPITest {
