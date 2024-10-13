@@ -1,27 +1,30 @@
 package LeetCode_217;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 /*
-Time Complexity : O(n^2)
-Space Complexity : O(1)
+Time Complexity : O(n)
+Space Complexity : O(n)
  */
-class SolutionOptimizeBruteForceTest {
+
+class SolutionHashSetTest {
     public boolean hasDuplicate(int[] nums) {
+        HashSet<Integer> hset = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] == nums[j])
-                    return true;
+            if (hset.contains(nums[i])) {
+                return true;
             }
+            hset.add(nums[i]);
         }
         return false;
     }
 }
 
-public class OptimizeBruteForceTest {
+public class HashSetTest {
 
     public static void main(String[] args) {
-        SolutionOptimizeBruteForceTest solution = new SolutionOptimizeBruteForceTest();
+        SolutionHashSetTest solution = new SolutionHashSetTest();
         int[] nums1 = { 1, 2, 3, 4, 1, 2, 6, 7, 3, 4 };
         int[] nums2 = { 1, 2, 7, 3, 5 };
         System.out.println("---------------------------------------------------");
