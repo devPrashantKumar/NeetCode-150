@@ -1,4 +1,4 @@
-package NeetCode_7;
+package NeetCode_6;
 
 import java.util.*;
 
