@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CompareHashMapOptimizedTest",
+            "request": "launch",
+            "mainClass": "NeetCode_2_LeetCode_242.CompareHashMapOptimizedTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "CompareHashTableCharArrayTest",
+            "request": "launch",
+            "mainClass": "NeetCode_2_LeetCode_242.CompareHashTableCharArrayTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "CompareCharArrayOptimizedTest",
+            "request": "launch",
+            "mainClass": "NeetCode_2_LeetCode_242.CompareCharArrayOptimizedTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "CompareCharArrayTest",
+            "request": "launch",
+            "mainClass": "NeetCode_2_LeetCode_242.CompareCharArrayTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "MinStackImplementation",
             "request": "launch",
             "mainClass": "NeetCode_16_LeetCode_155.MinStackImplementation",
