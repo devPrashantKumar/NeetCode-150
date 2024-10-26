@@ -1,4 +1,4 @@
-package NeetCode_6;
+package NeetCode_6_LeetCode_271;
 
 import java.util.*;
 
