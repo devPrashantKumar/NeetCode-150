@@ -15,7 +15,8 @@ class SolutionEncodeDecodeStringTest {
         List<String> stringList = new ArrayList<>();
         int index = 0;
         while(index<str.length()){
-            int stringLength = str.charAt(index)-'0';
+            int stringLength = Integer.parseInt(str.substring(index, str.indexOf('#', index)));
+            
             System.out.print(stringLength);
             String current = str.substring(index+1, index+1+stringLength);
             stringList.add(current);
