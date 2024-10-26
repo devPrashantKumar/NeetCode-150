@@ -1,44 +1,40 @@
-package NeetCode_7;
+package NeetCode_7_LeetCode_238;
 
 import java.util.Arrays;
 
+
 /*
  * Time Complexity O(n)
- * Space Compexity O(1)
+ * Space Compexity O(n)
  */
-class SolutionPrefixSuffixSpaceOptimizedApprochTest {
+class SolutionPrefixSuffixApprochTest {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
-        int[] result = new int[n];
-        Arrays.fill(result, 1);
+        int[] prefixArray = new int[n];
+        int[] suffixArray = new int[n];
 
-        // storing prefix sum in result array;
         for (int i = 0; i < n; i++) {
             if (i == 0) {
-                result[i] = 1;
+                prefixArray[0] = 1;
+                suffixArray[n - 1] = 1;
             } else {
-                result[i] = result[i - 1] * nums[i - 1];
+                prefixArray[i] = prefixArray[i - 1] * nums[i - 1];
+                suffixArray[n - 1 - i] = suffixArray[n - 1 - i + 1] * nums[n - 1 - i + 1];
             }
         }
 
-        int suffixProd = 1;
-        for (int i = n - 1; i >= 0; i--) {
-            if (i == n - 1) {
-                suffixProd = 1;
-            } else {
-                suffixProd = suffixProd * nums[i + 1];
-                result[i] *= suffixProd;
-            }
+        for (int i = 0; i < n; i++) {
+            nums[i] = prefixArray[i] * suffixArray[i];
         }
 
-        return result;
+        return nums;
     }
 
 }
 
-public class PrefixSuffixSpaceOptimizedApprochTest {
+public class PrefixSuffixApprochTest {
     public static void main(String[] args) {
-        SolutionPrefixSuffixSpaceOptimizedApprochTest solution = new SolutionPrefixSuffixSpaceOptimizedApprochTest();
+        SolutionPrefixSuffixApprochTest solution = new SolutionPrefixSuffixApprochTest();
         int[] nums1 = { 1, 2, 4, 6 };
         int[] nums2 = { -1, 0, 1, 2, 3 };
         System.out.println("---------------------------------------------------");
