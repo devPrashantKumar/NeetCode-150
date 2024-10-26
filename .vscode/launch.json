@@ -1,0 +1,119 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MinStackImplementation",
+            "request": "launch",
+            "mainClass": "NeetCode_16_LeetCode_155.MinStackImplementation",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "StackApprochTest",
+            "request": "launch",
+            "mainClass": "NeetCode_15_LeetCode_20.StackApprochTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "BruteForceTest",
+            "request": "launch",
+            "mainClass": "NeetCode_1_LeetCode_217.BruteForceTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "HashMapTest",
+            "request": "launch",
+            "mainClass": "NeetCode_1_LeetCode_217.HashMapTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "HashSetLengthTest",
+            "request": "launch",
+            "mainClass": "NeetCode_1_LeetCode_217.HashSetLengthTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "HashSetTest",
+            "request": "launch",
+            "mainClass": "NeetCode_1_LeetCode_217.HashSetTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "OptimizeBruteForceTest",
+            "request": "launch",
+            "mainClass": "NeetCode_1_LeetCode_217.OptimizeBruteForceTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "SortingTest",
+            "request": "launch",
+            "mainClass": "NeetCode_1_LeetCode_217.SortingTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "StreamAPITest",
+            "request": "launch",
+            "mainClass": "NeetCode_1_LeetCode_217.StreamAPITest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "CompareHashMapTest",
+            "request": "launch",
+            "mainClass": "NeetCode_2_LeetCode_242.CompareHashMapTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "SortedCharArrayTest",
+            "request": "launch",
+            "mainClass": "NeetCode_2_LeetCode_242.SortedCharArrayTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "HashMapTest(1)",
+            "request": "launch",
+            "mainClass": "NeetCode_3_LeetCode_1.HashMapTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "EncodeDecodeStringTest",
+            "request": "launch",
+            "mainClass": "NeetCode_6.EncodeDecodeStringTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "PrefixSuffixApprochTest",
+            "request": "launch",
+            "mainClass": "NeetCode_7_LeetCode_238.PrefixSuffixApprochTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "PrefixSuffixSpaceOptimizedApprochTest",
+            "request": "launch",
+            "mainClass": "NeetCode_7_LeetCode_238.PrefixSuffixSpaceOptimizedApprochTest",
+            "projectName": "NeetCode-150_99f16b97"
+        }
+    ]
+}
