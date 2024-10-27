@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BucketArrayHashMapApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_4_LeetCode_49.BucketArrayHashMapApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "BucketArrayApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_4_LeetCode_49.BucketArrayApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "HashMapApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_4_LeetCode_49.HashMapApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "BruteForceOptimizedTest",
+            "request": "launch",
+            "mainClass": "NeetCode_4_LeetCode_49.BruteForceOptimizedTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "BruteForceTest",
+            "request": "launch",
+            "mainClass": "NeetCode_4_LeetCode_49.BruteForceTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "CompareHashMapOptimizedTest",
             "request": "launch",
             "mainClass": "NeetCode_2_LeetCode_242.CompareHashMapOptimizedTest",

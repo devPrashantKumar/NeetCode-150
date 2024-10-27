@@ -1,0 +1,1 @@
+### whenever we want to divide elements in groups on some basis , try to use hashmap
