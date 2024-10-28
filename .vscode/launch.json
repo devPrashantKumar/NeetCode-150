@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UsingCountingSortOptimised2Test",
+            "request": "launch",
+            "mainClass": "NeetCode_5_LeetCode_347.UsingCountingSortOptimised2Test",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "UsingCountingSortOptimisedTest",
+            "request": "launch",
+            "mainClass": "NeetCode_5_LeetCode_347.UsingCountingSortOptimisedTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "BruteForceTest",
+            "request": "launch",
+            "mainClass": "NeetCode_5_LeetCode_347.BruteForceTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "BucketArrayHashMapApproachTest",
             "request": "launch",
             "mainClass": "NeetCode_4_LeetCode_49.BucketArrayHashMapApproachTest",
