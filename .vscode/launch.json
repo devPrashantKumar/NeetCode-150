@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EncodeDecodeStringTest",
+            "request": "launch",
+            "mainClass": "NeetCode_6_LeetCode_271.EncodeDecodeStringTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "UsingCountingSortOptimised2Test",
             "request": "launch",
             "mainClass": "NeetCode_5_LeetCode_347.UsingCountingSortOptimised2Test",

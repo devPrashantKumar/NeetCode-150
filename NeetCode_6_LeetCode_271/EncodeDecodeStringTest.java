@@ -15,12 +15,11 @@ class SolutionEncodeDecodeStringTest {
         List<String> stringList = new ArrayList<>();
         int index = 0;
         while(index<str.length()){
-            int stringLength = Integer.parseInt(str.substring(index, str.indexOf('#', index)));
-            
-            System.out.print(stringLength);
-            String current = str.substring(index+1, index+1+stringLength);
+            int nextHashIndex = str.indexOf('#', index);
+            int stringLength = Integer.parseInt(str.substring(index,nextHashIndex ));
+            String current = str.substring(nextHashIndex+1, nextHashIndex+1+stringLength);
             stringList.add(current);
-            index = (index+stringLength+1); 
+            index = (nextHashIndex+stringLength+1); 
         }
         return stringList;
     }
@@ -29,17 +28,17 @@ class SolutionEncodeDecodeStringTest {
 public class EncodeDecodeStringTest {
     public static void main(String[] args) {
         SolutionEncodeDecodeStringTest solution = new SolutionEncodeDecodeStringTest();
-        // List<String> input1 = List.of( "neet", "code", "love", "you" );
-        // String encodedString = solution.encode(input1);
-        // System.out.println("Encoded String : " + encodedString);
-        // List<String> decodedString = solution.decode(encodedString);
-        // System.out.println("Decoded String : " + decodedString);
+        List<String> input1 = List.of( "neet", "code", "love", "you" );
+        String encodedString = solution.encode(input1);
+        System.out.println("Encoded String : " + encodedString);
+        List<String> decodedString = solution.decode(encodedString);
+        System.out.println("Decoded String : " + decodedString);
         System.out.println("----------------------------------------------------------------");
         List<String> input2 = List.of("we","say",":","yes","!@#$%^&*()");
         String encodedString2 = solution.encode(input2);
         System.out.println("Encoded String : " + encodedString2);
-        // List<String> decodedString2 = solution.decode(encodedString2);
-        // System.out.println("Decoded String : " + decodedString2);
+        List<String> decodedString2 = solution.decode(encodedString2);
+        System.out.println("Decoded String : " + decodedString2);
     }
 
 }
