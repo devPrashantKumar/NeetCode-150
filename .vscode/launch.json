@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashGPTOptimisedApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_9_LeetCode_128.HashGPTOptimisedApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "HashOptimisedApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_9_LeetCode_128.HashOptimisedApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "SortingApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_9_LeetCode_128.SortingApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "BruteForceApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_9.BruteForceApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "MyHashApprochTest",
+            "request": "launch",
+            "mainClass": "NeetCode_8.MyHashApprochTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "EncodeDecodeStringTest",
             "request": "launch",
             "mainClass": "NeetCode_6_LeetCode_271.EncodeDecodeStringTest",
