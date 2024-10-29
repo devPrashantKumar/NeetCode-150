@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BruteForceApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_8_leetCode_36.BruteForceApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "HashGPTOptimisedApproachTest",
             "request": "launch",
             "mainClass": "NeetCode_9_LeetCode_128.HashGPTOptimisedApproachTest",
