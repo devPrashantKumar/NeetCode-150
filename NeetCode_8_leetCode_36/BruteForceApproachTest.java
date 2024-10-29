@@ -1,7 +1,10 @@
 package NeetCode_8_leetCode_36;
 
 import java.util.*;
-
+/*
+ * Time complexity O(n^2)
+ * Space Complexity O(n)
+ */
 class SolutionBruteForceApproachTest {
     public boolean isValidSudoku(char[][] board) {
         HashSet<Character> hset = new HashSet<>();
