@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortingApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_3_LeetCode_1.SortingApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "BruteForceApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_11_LeetCode_.BruteForceApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "TwoPonterApproachTest",
+            "request": "launch",
+            "mainClass": "NeetCode_11_LeetCode_.TwoPonterApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "StackApprochTest",
+            "request": "launch",
+            "mainClass": "NeetCode_11_LeetCode_.StackApprochTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "BruteForceTest",
             "request": "launch",
             "mainClass": "NeetCode_10_.BruteForceTest",
