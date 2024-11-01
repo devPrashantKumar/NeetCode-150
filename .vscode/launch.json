@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RecursiveApprochUsingUtilFunctionTest",
+            "request": "launch",
+            "mainClass": "NeetCode_47_LeetCode_104.RecursiveApprochUsingUtilFunctionTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "RecursiveApprochTest",
+            "request": "launch",
+            "mainClass": "NeetCode_47_LeetCode_104.RecursiveApprochTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "IterativeApprochTest",
             "request": "launch",
             "mainClass": "NeetCode_46_LeetCode_226.IterativeApprochTest",
