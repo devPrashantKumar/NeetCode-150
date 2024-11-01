@@ -6,8 +6,6 @@ import java.util.Queue;
 /*
  * Time Complexity - O(n)
  * Space Complexity - O(n)  
- * space occupied by recursive stack in work case,
- * if tree is balanced then time complexity will be (logn)
  */
 
 class SolutionIterativeApprochTest {
