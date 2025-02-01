@@ -8,7 +8,7 @@ import java.util.Stack;
  * Space Complexity - O(n)  
  */
 
-class SolutionIterativeApprochTest {
+class SolutionIterativeApproachTest {
     public int diameterOfBinaryTree(TreeNode root) {
         int diameter = 0;
         HashMap<TreeNode,Integer> map = new HashMap<>();
@@ -38,9 +38,9 @@ class SolutionIterativeApprochTest {
     }
 }
 
-public class IterativeApprochTest {
+public class IterativeApproachTest {
     public static void main(String[] args) {
-        SolutionIterativeApprochTest solution = new SolutionIterativeApprochTest();
+        SolutionIterativeApproachTest solution = new SolutionIterativeApproachTest();
         TreeNode root1 = new TreeNode(1, null,new TreeNode(2,new TreeNode(3,new TreeNode(5),null),new TreeNode(4)));
 
         printTree("", root1);

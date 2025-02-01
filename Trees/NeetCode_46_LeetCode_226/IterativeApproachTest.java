@@ -1,34 +1,38 @@
 package Trees.NeetCode_46_LeetCode_226;
+import java.util.*;
 
 /*
  * Time Complexity - O(n)
- * Space Complexity - O(n)  
- * space occupied by recursive stack in work case,
- * if tree is balanced then time complexity will be (logn)
+ * Space Complexity - O(n)
  */
-
-class SolutionRecursiveApprochTest {
+class SolutionIterativeApproachTest {
     public TreeNode invertTree(TreeNode root) {
-        if (root == null)
-            return root;
-        TreeNode left = invertTree(root.left);
-        TreeNode right = invertTree(root.right);
-        root.left = right;
-        root.right = left;
+        if(root==null) return root;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()){
+            TreeNode node = queue.poll();
+            if(node.left!=null)queue.add(node.left);
+            if(node.right!=null)queue.add(node.right);
+            TreeNode tempNode = node.left;
+            node.left = node.right;
+            node.right = tempNode;
+        }
         return root;
     }
 }
 
-public class RecursiveApprochTest {
+
+public class IterativeApproachTest {
     public static void main(String[] args) {
-        SolutionRecursiveApprochTest solution = new SolutionRecursiveApprochTest();
+        SolutionIterativeApproachTest solution = new SolutionIterativeApproachTest();
         TreeNode root1 = new TreeNode(4, new TreeNode(2, new TreeNode(1), new TreeNode(3)),
                 new TreeNode(7, new TreeNode(6), new TreeNode(9)));
 
-        printTree("", root1);
+        printTree("",root1);
         System.out.println("----------------------------");
         TreeNode invertRoot1 = solution.invertTree(root1);
-        printTree("", invertRoot1);
+        printTree("",invertRoot1);
         System.out.println("----------------------------");
 
         System.out.println("----------------------------");
@@ -36,10 +40,10 @@ public class RecursiveApprochTest {
 
         TreeNode root2 = null;
 
-        printTree("", root2);
+        printTree("",root2);
         System.out.println("----------------------------");
         TreeNode invertRoot2 = solution.invertTree(root2);
-        printTree("", invertRoot2);
+        printTree("",invertRoot2);
         System.out.println("----------------------------");
 
     }
@@ -51,5 +55,5 @@ public class RecursiveApprochTest {
         System.out.println(space + root.val);
         printTree(space + "    ", root.left);
     }
-
+    
 }

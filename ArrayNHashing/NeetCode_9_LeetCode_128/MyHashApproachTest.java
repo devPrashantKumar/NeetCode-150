@@ -5,7 +5,7 @@ import java.util.*;
  * Time Complexity - O(n^2)
  * Space Complexity - O(n)
  */
-class SolutionMyHashApprochTest {
+class SolutionMyHashApproachTest {
     public int longestConsecutive(int[] nums) {
         int longestSequence = 0;
         HashMap<Integer, Integer> hmap = new HashMap<>();
@@ -32,9 +32,9 @@ class SolutionMyHashApprochTest {
     }
 }
 
-public class MyHashApprochTest {
+public class MyHashApproachTest {
     public static void main(String[] args) {
-        SolutionMyHashApprochTest solution = new SolutionMyHashApprochTest();
+        SolutionMyHashApproachTest solution = new SolutionMyHashApproachTest();
         int[] nums1 = { 2, 20, 4, 10, 3, 4, 5 };
         int[] nums2 = { 0, 3, 2, 5, 4, 6, 1, 1 };
         System.out.println("---------------------------------------------------");

@@ -7,7 +7,7 @@ package Trees.NeetCode_50_LeetCode_;
  * if tree is balanced then time complexity will be (logn)
  */
 
-class SolutionRecursiveApprochTest {
+class SolutionRecursiveApproachTest {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(!((p==null && q==null) || (p!=null && q!=null && p.val==q.val))) return false;
         if(p==null && q==null) return true;
@@ -17,9 +17,9 @@ class SolutionRecursiveApprochTest {
     }
 }
 
-public class RecursiveApprochTest {
+public class RecursiveApproachTest {
     public static void main(String[] args) {
-        SolutionRecursiveApprochTest solution = new SolutionRecursiveApprochTest();
+        SolutionRecursiveApproachTest solution = new SolutionRecursiveApproachTest();
         TreeNode root11 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
         TreeNode root21 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
 

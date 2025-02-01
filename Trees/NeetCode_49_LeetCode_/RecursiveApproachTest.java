@@ -7,7 +7,7 @@ package Trees.NeetCode_49_LeetCode_;
  * if tree is balanced then time complexity will be (logn)
  */
 
-class SolutionRecursiveApprochTest {
+class SolutionRecursiveApproachTest {
     public boolean isBalanced(TreeNode root) {
         if (root==null) return true;
         return isBalancedUtil(root)[0]==1;
@@ -26,9 +26,9 @@ class SolutionRecursiveApprochTest {
     }
 }
 
-public class RecursiveApprochTest {
+public class RecursiveApproachTest {
     public static void main(String[] args) {
-        SolutionRecursiveApprochTest solution = new SolutionRecursiveApprochTest();
+        SolutionRecursiveApproachTest solution = new SolutionRecursiveApproachTest();
         TreeNode root1 = new TreeNode(1, new TreeNode(2), new TreeNode(3, new TreeNode(4), null));
 
         printTree("", root1);

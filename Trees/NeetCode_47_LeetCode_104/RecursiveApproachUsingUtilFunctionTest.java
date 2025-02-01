@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * if tree is balanced then time complexity will be (logn)
  */
 
-class SolutionRecursiveApprochUsingUtilFunctionTest {
+class SolutionRecursiveApproachUsingUtilFunctionTest {
     public int maxDepth(TreeNode root) {
         if (root==null) return 0;
         // Integer larget = 0;
@@ -31,9 +31,9 @@ class SolutionRecursiveApprochUsingUtilFunctionTest {
     }
 }
 
-public class RecursiveApprochUsingUtilFunctionTest {
+public class RecursiveApproachUsingUtilFunctionTest {
     public static void main(String[] args) {
-        SolutionRecursiveApprochUsingUtilFunctionTest solution = new SolutionRecursiveApprochUsingUtilFunctionTest();
+        SolutionRecursiveApproachUsingUtilFunctionTest solution = new SolutionRecursiveApproachUsingUtilFunctionTest();
         TreeNode root1 = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
 
         printTree("", root1);

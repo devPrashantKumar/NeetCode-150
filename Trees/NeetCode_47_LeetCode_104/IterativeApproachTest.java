@@ -8,7 +8,7 @@ import java.util.Queue;
  * Space Complexity - O(n)  
  */
 
-class SolutionIterativeApprochTest {
+class SolutionIterativeApproachTest {
     public int maxDepth(TreeNode root) {
         int maxDepth = 0;
         if (root==null) return maxDepth;
@@ -28,9 +28,9 @@ class SolutionIterativeApprochTest {
     }
 }
 
-public class IterativeApprochTest {
+public class IterativeApproachTest {
     public static void main(String[] args) {
-        SolutionIterativeApprochTest solution = new SolutionIterativeApprochTest();
+        SolutionIterativeApproachTest solution = new SolutionIterativeApproachTest();
         TreeNode root1 = new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7)));
 
         printTree("", root1);

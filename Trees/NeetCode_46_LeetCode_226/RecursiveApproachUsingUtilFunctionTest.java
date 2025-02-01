@@ -6,7 +6,7 @@ package Trees.NeetCode_46_LeetCode_226;
  * space occupied by recursive stack in work case,
  * if tree is balanced then time complexity will be (logn)
  */
-class SolutionRecursiveApprochUsingUtilFunctionTest {
+class SolutionRecursiveApproachUsingUtilFunctionTest {
     public TreeNode invertTree(TreeNode root) {
         invertTreeUtil(root);
         return root;
@@ -24,9 +24,9 @@ class SolutionRecursiveApprochUsingUtilFunctionTest {
 }
 
 
-public class RecursiveApprochUsingUtilFunctionTest {
+public class RecursiveApproachUsingUtilFunctionTest {
     public static void main(String[] args) {
-        SolutionRecursiveApprochUsingUtilFunctionTest solution = new SolutionRecursiveApprochUsingUtilFunctionTest();
+        SolutionRecursiveApproachUsingUtilFunctionTest solution = new SolutionRecursiveApproachUsingUtilFunctionTest();
         TreeNode root1 = new TreeNode(4, new TreeNode(2, new TreeNode(1), new TreeNode(3)),
                 new TreeNode(7, new TreeNode(6), new TreeNode(9)));
 

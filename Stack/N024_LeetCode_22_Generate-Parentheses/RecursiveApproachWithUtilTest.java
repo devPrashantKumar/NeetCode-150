@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class SolutionRecursiveApprochWithUtilTest {
+class SolutionRecursiveApproachWithUtilTest {
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
         this.generateParenthesisUtil(n,n,"",result);
@@ -27,9 +27,9 @@ class SolutionRecursiveApprochWithUtilTest {
     }
 }
 
-public class RecursiveApprochWithUtilTest {
+public class RecursiveApproachWithUtilTest {
     public static void main(String[] args) {
-        SolutionRecursiveApprochWithUtilTest solution = new SolutionRecursiveApprochWithUtilTest();
+        SolutionRecursiveApproachWithUtilTest solution = new SolutionRecursiveApproachWithUtilTest();
         int num1 = 1;
         int num2 = 3;
         System.out.println("---------------------------------------------------");

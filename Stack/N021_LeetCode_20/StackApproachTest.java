@@ -22,7 +22,7 @@ class SolutionStackApproachTest {
         return stack.isEmpty();
     }
 }
-public class StackApprochTest {
+public class StackApproachTest {
     public static void main(String[] args) {
         SolutionStackApproachTest solution = new SolutionStackApproachTest();
         String stringInput1 = "()";

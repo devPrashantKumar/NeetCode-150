@@ -6,9 +6,30 @@
     "configurations": [
         {
             "type": "java",
-            "name": "IterativeApprochTest",
+            "name": "StreamApiTest",
             "request": "launch",
-            "mainClass": "Trees.NeetCode_47_LeetCode_104.IterativeApprochTest",
+            "mainClass": "TwoPointers.N010_L125_Valid_Palindrome.StreamApiTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "StringBuilderReversalApproachTest",
+            "request": "launch",
+            "mainClass": "TwoPointers.N010_L125_Valid_Palindrome.StringBuilderReversalApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "TwoPointersApproachTest",
+            "request": "launch",
+            "mainClass": "TwoPointers.N010_L125_Valid_Palindrome.TwoPointersApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "IterativeApproachTest",
+            "request": "launch",
+            "mainClass": "Trees.NeetCode_47_LeetCode_104.IterativeApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
@@ -27,79 +48,79 @@
         },
         {
             "type": "java",
-            "name": "RecursiveApprochTest",
+            "name": "RecursiveApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_50_LeetCode_.RecursiveApprochTest",
+            "mainClass": "NeetCode_50_LeetCode_.RecursiveApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "RecursiveApprochTest",
+            "name": "RecursiveApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_49_LeetCode_.RecursiveApprochTest",
+            "mainClass": "NeetCode_49_LeetCode_.RecursiveApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "IterativeApprochTest",
+            "name": "IterativeApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_48_LeetCode_543.IterativeApprochTest",
+            "mainClass": "NeetCode_48_LeetCode_543.IterativeApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "RecursiveApprochTest",
+            "name": "RecursiveApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_48_LeetCode_543.RecursiveApprochTest",
+            "mainClass": "NeetCode_48_LeetCode_543.RecursiveApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "RecursiveApprochTest",
+            "name": "RecursiveApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_48_LeetCode_.RecursiveApprochTest",
+            "mainClass": "NeetCode_48_LeetCode_.RecursiveApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "IterativeApprochTest",
+            "name": "IterativeApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_47_LeetCode_104.IterativeApprochTest",
+            "mainClass": "NeetCode_47_LeetCode_104.IterativeApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "RecursiveApprochUsingUtilFunctionTest",
+            "name": "RecursiveApproachUsingUtilFunctionTest",
             "request": "launch",
-            "mainClass": "NeetCode_47_LeetCode_104.RecursiveApprochUsingUtilFunctionTest",
+            "mainClass": "NeetCode_47_LeetCode_104.RecursiveApproachUsingUtilFunctionTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "RecursiveApprochTest",
+            "name": "RecursiveApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_47_LeetCode_104.RecursiveApprochTest",
+            "mainClass": "NeetCode_47_LeetCode_104.RecursiveApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "IterativeApprochTest",
+            "name": "IterativeApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_46_LeetCode_226.IterativeApprochTest",
+            "mainClass": "NeetCode_46_LeetCode_226.IterativeApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "RecursiveApprochUsingUtilFunctionTest",
+            "name": "RecursiveApproachUsingUtilFunctionTest",
             "request": "launch",
-            "mainClass": "NeetCode_46_LeetCode_226.RecursiveApprochUsingUtilFunctionTest",
+            "mainClass": "NeetCode_46_LeetCode_226.RecursiveApproachUsingUtilFunctionTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "RecursiveApprochTest",
+            "name": "RecursiveApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_46_LeetCode_226.RecursiveApprochTest",
+            "mainClass": "NeetCode_46_LeetCode_226.RecursiveApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
@@ -125,9 +146,9 @@
         },
         {
             "type": "java",
-            "name": "StackApprochTest",
+            "name": "StackApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_11_LeetCode_.StackApprochTest",
+            "mainClass": "NeetCode_11_LeetCode_.StackApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
@@ -174,9 +195,9 @@
         },
         {
             "type": "java",
-            "name": "MyHashApprochTest",
+            "name": "MyHashApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_8.MyHashApprochTest",
+            "mainClass": "NeetCode_8.MyHashApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
@@ -285,9 +306,9 @@
         },
         {
             "type": "java",
-            "name": "StackApprochTest",
+            "name": "StackApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_15_LeetCode_20.StackApprochTest",
+            "mainClass": "NeetCode_15_LeetCode_20.StackApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
@@ -369,16 +390,16 @@
         },
         {
             "type": "java",
-            "name": "PrefixSuffixApprochTest",
+            "name": "PrefixSuffixApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_7_LeetCode_238.PrefixSuffixApprochTest",
+            "mainClass": "NeetCode_7_LeetCode_238.PrefixSuffixApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
-            "name": "PrefixSuffixSpaceOptimizedApprochTest",
+            "name": "PrefixSuffixSpaceOptimizedApproachTest",
             "request": "launch",
-            "mainClass": "NeetCode_7_LeetCode_238.PrefixSuffixSpaceOptimizedApprochTest",
+            "mainClass": "NeetCode_7_LeetCode_238.PrefixSuffixSpaceOptimizedApproachTest",
             "projectName": "NeetCode-150_99f16b97"
         }
     ]

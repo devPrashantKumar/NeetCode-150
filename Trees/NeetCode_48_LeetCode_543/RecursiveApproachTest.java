@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * if tree is balanced then time complexity will be (logn)
  */
 
-class SolutionRecursiveApprochUsingUtilFunctionTest {
+class SolutionRecursiveApproachUsingUtilFunctionTest {
     public int diameterOfBinaryTree(TreeNode root) {
         if (root==null) return 0;
         // Integer larget = 0;
@@ -30,9 +30,9 @@ class SolutionRecursiveApprochUsingUtilFunctionTest {
     }
 }
 
-public class RecursiveApprochTest {
+public class RecursiveApproachTest {
     public static void main(String[] args) {
-        SolutionRecursiveApprochUsingUtilFunctionTest solution = new SolutionRecursiveApprochUsingUtilFunctionTest();
+        SolutionRecursiveApproachUsingUtilFunctionTest solution = new SolutionRecursiveApproachUsingUtilFunctionTest();
         TreeNode root1 = new TreeNode(1, null,new TreeNode(2,new TreeNode(3,new TreeNode(5),null),new TreeNode(4)));
 
         printTree("", root1);

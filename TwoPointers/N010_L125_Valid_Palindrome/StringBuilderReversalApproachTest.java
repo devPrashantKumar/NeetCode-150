@@ -1,22 +1,15 @@
-package TwoPointers.NeetCode_10_LeetCode_125;
+package TwoPointers.N010_L125_Valid_Palindrome;
 /*
  * Time Complexity - O(n)
- * Space Complexity - O(1)
+ * Space Complexity - O(n) to store string reversal.
  */
-class SolutionBruteForceTest {
+class SolutionStringBuilderReversalApproachTest {
     public boolean isPalindrome(String s) {
-        int start=0;
-        int end = s.length()-1;
-        while(start<=end){
-            if(!isAlphaNumeric(s.charAt(start))) start++;
-            else if(!isAlphaNumeric(s.charAt(end))) end--;
-            else if(Character.toLowerCase(s.charAt(start))!=Character.toLowerCase(s.charAt(end))) return false;
-            else {
-                start++;
-                end--;
-            }
+        StringBuilder sb = new StringBuilder();
+        for(int i=0;i<s.length();i++){
+            if(isAlphaNumeric(s.charAt(i))) sb.append(s.charAt(i));
         }
-        return true;
+        return sb.toString().equalsIgnoreCase(sb.reverse().toString());
     }
 
     public boolean isAlphaNumeric(char c){
@@ -25,9 +18,9 @@ class SolutionBruteForceTest {
 }
 
 
-public class BruteForceTest {
+public class StringBuilderReversalApproachTest {
     public static void main(String[] args) {
-        SolutionBruteForceTest solution = new SolutionBruteForceTest();
+        SolutionStringBuilderReversalApproachTest solution = new SolutionStringBuilderReversalApproachTest();
         String s1 = "A man, a plan, a canal: Panama";
         String s2 = "race a car";
         String s3 = " ";
@@ -43,3 +36,4 @@ public class BruteForceTest {
         System.out.println("---------------------------------------------------");
     }
 }
+
