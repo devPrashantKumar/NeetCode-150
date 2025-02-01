@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackApproachOptimisedTest",
+            "request": "launch",
+            "mainClass": "Stack.N023_LeetCode_150_EvaluateReversePolishNotation.StackApproachOptimisedTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "StackApproachTest",
+            "request": "launch",
+            "mainClass": "Stack.N023_LeetCode_150_EvaluateReversePolishNotation.StackApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "TwoPointerApproachTest",
             "request": "launch",
             "mainClass": "TwoPointers.N013_L011_ContainerWithMostWater.TwoPointerApproachTest",

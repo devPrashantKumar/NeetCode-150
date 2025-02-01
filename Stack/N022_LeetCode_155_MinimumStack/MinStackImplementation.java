@@ -1,4 +1,4 @@
-package Stack.N022_LeetCode_155;
+package Stack.N022_LeetCode_155_MinimumStack;
 import java.util.*;
 
 class MinStack {
