@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IterativeApprochTest",
+            "request": "launch",
+            "mainClass": "Trees.NeetCode_47_LeetCode_104.IterativeApprochTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "HashMapTest",
             "request": "launch",
             "mainClass": "N003_L001_Two_Sum.HashMapTest",
