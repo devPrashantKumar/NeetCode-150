@@ -1,4 +1,4 @@
-package TwoPointers.NeetCode_11_LeetCode_;
+package TwoPointers.N011_L167_TwoSumII;
 import java.util.Arrays;
 
 /*
