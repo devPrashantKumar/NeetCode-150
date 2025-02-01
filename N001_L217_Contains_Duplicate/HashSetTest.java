@@ -1,27 +1,30 @@
-package NeetCode_1_LeetCode_217;
+package N001_L217_Contains_Duplicate;
 
 import java.util.Arrays;
+import java.util.HashSet;
+
 /*
- * Time Complexity : O(nlogn) 
- * time complexity of sorting of an array is O(nlogn)
- * Space Complexity : O(1) 
- * in place sorting
+Time Complexity : O(n)
+Space Complexity : O(n)
  */
 
-class SolutionSortingTest {
+class SolutionHashSetTest {
     public boolean hasDuplicate(int[] nums) {
-        Arrays.sort(nums);
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == nums[i - 1])
+        HashSet<Integer> hset = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (hset.contains(nums[i])) {
                 return true;
+            }
+            hset.add(nums[i]);
         }
         return false;
     }
 }
 
-public class SortingTest {
+public class HashSetTest {
+
     public static void main(String[] args) {
-        SolutionSortingTest solution = new SolutionSortingTest();
+        SolutionHashSetTest solution = new SolutionHashSetTest();
         int[] nums1 = { 1, 2, 3, 4, 1, 2, 6, 7, 3, 4 };
         int[] nums2 = { 1, 2, 7, 3, 5 };
         System.out.println("---------------------------------------------------");

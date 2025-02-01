@@ -1,28 +1,27 @@
-package NeetCode_1_LeetCode_217;
+package N001_L217_Contains_Duplicate;
 
 import java.util.Arrays;
-import java.util.HashMap;
-
 /*
-Time Complexity : O(n)
-Space Complexity : O(n)
+ * Time Complexity : O(nlogn) 
+ * time complexity of sorting of an array is O(nlogn)
+ * Space Complexity : O(1) 
+ * in place sorting
  */
-class SolutionHashMapTest {
+
+class SolutionSortingTest {
     public boolean hasDuplicate(int[] nums) {
-        HashMap<Integer,Integer> hmap = new HashMap<>();
-        for (int i = 0; i < nums.length; i++) {
-            if(hmap.containsKey(nums[i])) {
+        Arrays.sort(nums);
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] == nums[i - 1])
                 return true;
-            }
-            hmap.put(nums[i],1);
         }
         return false;
     }
 }
 
-public class HashMapTest {
+public class SortingTest {
     public static void main(String[] args) {
-        SolutionHashMapTest solution = new SolutionHashMapTest();
+        SolutionSortingTest solution = new SolutionSortingTest();
         int[] nums1 = { 1, 2, 3, 4, 1, 2, 6, 7, 3, 4 };
         int[] nums2 = { 1, 2, 7, 3, 5 };
         System.out.println("---------------------------------------------------");

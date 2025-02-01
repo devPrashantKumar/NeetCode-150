@@ -1,27 +1,27 @@
-package NeetCode_1_LeetCode_217;
+package N001_L217_Contains_Duplicate;
 
 import java.util.Arrays;
-import java.util.HashSet;
 
 /*
-Time Complexity : O(n)
-Space Complexity : O(n)
+Time Complexity : O(n^2)
+Space Complexity : O(1)
  */
-
-class SolutionHashSetLengthTest {
+class SolutionOptimizeBruteForceTest {
     public boolean hasDuplicate(int[] nums) {
-        HashSet<Integer> hset = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
-            hset.add(nums[i]);
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] == nums[j])
+                    return true;
+            }
         }
-        if(hset.size()<nums.length) return true;
         return false;
     }
 }
 
-public class HashSetLengthTest {
+public class OptimizeBruteForceTest {
+
     public static void main(String[] args) {
-        SolutionHashSetLengthTest solution = new SolutionHashSetLengthTest();
+        SolutionOptimizeBruteForceTest solution = new SolutionOptimizeBruteForceTest();
         int[] nums1 = { 1, 2, 3, 4, 1, 2, 6, 7, 3, 4 };
         int[] nums2 = { 1, 2, 7, 3, 5 };
         System.out.println("---------------------------------------------------");

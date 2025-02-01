@@ -1,27 +1,28 @@
-package NeetCode_2_LeetCode_242;
-import java.util.HashMap;
+package N002_L242_Valid_Anagram;
 
-class SolutionCompareHashMapOptimizedTest {
+import java.util.Arrays;
+
+class SolutionCompareHashTableCharArrayTest {
     public boolean isAnagram(String s, String t) {
-        HashMap<Character,Integer> hmap1 = new HashMap<>();
+        char[] charArray1 = s.toCharArray();
+        char[] charArray2 = t.toCharArray();
+        int[] characterArray1 = new int[26];
+        int[] characterArray2 = new int[26];
 
-        if(s.length()!=t.length()) return false;
-        for(int i=0;i<s.length();i++){
-            hmap1.put(s.charAt(i),hmap1.getOrDefault(s.charAt(i), 0)+1);
-            hmap1.put(t.charAt(i),hmap1.getOrDefault(t.charAt(i), 0)-1);
+        for(char ch : charArray1){
+            characterArray1[ch-'a']++;
+        }
+        for(char ch : charArray2){
+            characterArray2[ch-'a']++;
         }
 
-        for(int frequency : hmap1.values()){
-            if(frequency!=0) return false;
-        }
-        //hmap1.values().stream().allMatch(frequency -> frequency==0);
-        return true;
-
+        return Arrays.equals(characterArray1, characterArray2);
     }
 }
-public class CompareHashMapOptimizedTest {
+
+public class CompareHashTableCharArrayTest {
     public static void main(String[] args) {
-        SolutionCompareHashMapOptimizedTest solution  = new SolutionCompareHashMapOptimizedTest();
+        SolutionCompareHashTableCharArrayTest solution  = new SolutionCompareHashTableCharArrayTest();
         String s1 = "racecar";
         String t1 = "carrace";
         String s2 = "jar";

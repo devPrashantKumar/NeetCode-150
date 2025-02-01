@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HashMapTest",
+            "request": "launch",
+            "mainClass": "N003_L001_Two_Sum.HashMapTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "CompareHashMapOptimizedTest",
+            "request": "launch",
+            "mainClass": "N002_L242_Valid_Anagram.CompareHashMapOptimizedTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "RecursiveApprochTest",
             "request": "launch",
             "mainClass": "NeetCode_50_LeetCode_.RecursiveApprochTest",
@@ -273,49 +287,49 @@
             "type": "java",
             "name": "BruteForceTest",
             "request": "launch",
-            "mainClass": "NeetCode_1_LeetCode_217.BruteForceTest",
+            "mainClass": "N001_L217_Contains_Duplicate.BruteForceTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
             "name": "HashMapTest",
             "request": "launch",
-            "mainClass": "NeetCode_1_LeetCode_217.HashMapTest",
+            "mainClass": "N001_L217_Contains_Duplicate.HashMapTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
             "name": "HashSetLengthTest",
             "request": "launch",
-            "mainClass": "NeetCode_1_LeetCode_217.HashSetLengthTest",
+            "mainClass": "N001_L217_Contains_Duplicate.HashSetLengthTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
             "name": "HashSetTest",
             "request": "launch",
-            "mainClass": "NeetCode_1_LeetCode_217.HashSetTest",
+            "mainClass": "N001_L217_Contains_Duplicate.HashSetTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
             "name": "OptimizeBruteForceTest",
             "request": "launch",
-            "mainClass": "NeetCode_1_LeetCode_217.OptimizeBruteForceTest",
+            "mainClass": "N001_L217_Contains_Duplicate.OptimizeBruteForceTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
             "name": "SortingTest",
             "request": "launch",
-            "mainClass": "NeetCode_1_LeetCode_217.SortingTest",
+            "mainClass": "N001_L217_Contains_Duplicate.SortingTest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {
             "type": "java",
             "name": "StreamAPITest",
             "request": "launch",
-            "mainClass": "NeetCode_1_LeetCode_217.StreamAPITest",
+            "mainClass": "N001_L217_Contains_Duplicate.StreamAPITest",
             "projectName": "NeetCode-150_99f16b97"
         },
         {

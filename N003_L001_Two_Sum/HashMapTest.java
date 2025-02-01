@@ -1,4 +1,4 @@
-package NeetCode_3_LeetCode_1;
+package N003_L001_Two_Sum;
 import java.util.*;
 
 class SolutionHashMapTest {

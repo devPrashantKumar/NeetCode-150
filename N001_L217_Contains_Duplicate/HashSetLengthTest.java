@@ -1,23 +1,27 @@
-package NeetCode_1_LeetCode_217;
+package N001_L217_Contains_Duplicate;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 /*
-Time Complexity : O(n) - distinct will take O(n) time
-Space Complexity : O(n) - stream will occupy O(n) space
+Time Complexity : O(n)
+Space Complexity : O(n)
  */
 
-class SolutionStreamAPITest {
+class SolutionHashSetLengthTest {
     public boolean hasDuplicate(int[] nums) {
-        long uniqueElement = Arrays.stream(nums).distinct().count();
-        return nums.length!=uniqueElement;
+        HashSet<Integer> hset = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            hset.add(nums[i]);
+        }
+        if(hset.size()<nums.length) return true;
+        return false;
     }
 }
 
-
-public class StreamAPITest {
+public class HashSetLengthTest {
     public static void main(String[] args) {
-        SolutionStreamAPITest solution = new SolutionStreamAPITest();
+        SolutionHashSetLengthTest solution = new SolutionHashSetLengthTest();
         int[] nums1 = { 1, 2, 3, 4, 1, 2, 6, 7, 3, 4 };
         int[] nums2 = { 1, 2, 7, 3, 5 };
         System.out.println("---------------------------------------------------");

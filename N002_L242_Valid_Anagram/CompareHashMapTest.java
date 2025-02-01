@@ -1,4 +1,4 @@
-package NeetCode_2_LeetCode_242;
+package N002_L242_Valid_Anagram;
 import java.util.HashMap;
 
 class SolutionCompareHashMapTest {
