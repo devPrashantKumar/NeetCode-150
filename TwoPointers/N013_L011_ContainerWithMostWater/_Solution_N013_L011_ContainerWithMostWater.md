@@ -1,2 +1,2 @@
 ### Optimize Solutions:
-- youtube solution : 
+- youtube solution : https://youtu.be/ZHQg07n_tbg?si=rDc__6rJREx4d3dh

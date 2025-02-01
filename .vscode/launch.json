@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoPointerApproachTest",
+            "request": "launch",
+            "mainClass": "TwoPointers.N013_L011_ContainerWithMostWater.TwoPointerApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "BruteForceApproachTest",
             "request": "launch",
             "mainClass": "TwoPointers.N013_L011_ContainerWithMostWater.BruteForceApproachTest",
