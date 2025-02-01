@@ -1,20 +1,33 @@
-package TwoPointers.N010_L125_Valid_Palindrome;
-
-import java.util.Optional;
-
+package TwoPointers.N010_L125_ValidPalindrome;
 /*
  * Time Complexity - O(n)
- * Space Complexity - O(n) to store string reversal.
+ * Space Complexity - O(1)
  */
-class SolutionStreamApiApproachTest {
+class SolutionTwoPointersApproachTest {
     public boolean isPalindrome(String s) {
-        return Optional.of(s.toLowerCase().chars().filter(Character::isLetterOrDigit).collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)).map(sb->sb.toString().equals(sb.reverse().toString())).orElse(false);
+        int start=0;
+        int end = s.length()-1;
+        while(start<end){
+            if(!isAlphaNumeric(s.charAt(start))) start++;
+            else if(!isAlphaNumeric(s.charAt(end))) end--;
+            else if(Character.toLowerCase(s.charAt(start))!=Character.toLowerCase(s.charAt(end))) return false;
+            else {
+                start++;
+                end--;
+            }
+        }
+        return true;
+    }
+
+    public boolean isAlphaNumeric(char c){
+        return ((c-'a'>=0 && c-'z'<=0) || (c-'A'>=0 && c-'Z'<=0) || (c-'0'>=0 && c-'9'<=0));
     }
 }
 
-public class StreamApiApproachTest {
+
+public class TwoPointersApproachTest {
     public static void main(String[] args) {
-        SolutionStreamApiApproachTest solution = new SolutionStreamApiApproachTest();
+        SolutionTwoPointersApproachTest solution = new SolutionTwoPointersApproachTest();
         String s1 = "A man, a plan, a canal: Panama";
         String s2 = "race a car";
         String s3 = " ";
@@ -30,5 +43,3 @@ public class StreamApiApproachTest {
         System.out.println("---------------------------------------------------");
     }
 }
-
-

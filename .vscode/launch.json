@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BruteForceApproachTest",
+            "request": "launch",
+            "mainClass": "TwoPointers.N013_L011_ContainerWithMostWater.BruteForceApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "StreamApiTest",
             "request": "launch",
             "mainClass": "TwoPointers.N010_L125_Valid_Palindrome.StreamApiTest",

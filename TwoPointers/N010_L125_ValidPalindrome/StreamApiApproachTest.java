@@ -1,26 +1,20 @@
-package TwoPointers.N010_L125_Valid_Palindrome;
+package TwoPointers.N010_L125_ValidPalindrome;
+
+import java.util.Optional;
+
 /*
  * Time Complexity - O(n)
  * Space Complexity - O(n) to store string reversal.
  */
-class SolutionStringBuilderReversalApproachTest {
+class SolutionStreamApiApproachTest {
     public boolean isPalindrome(String s) {
-        StringBuilder sb = new StringBuilder();
-        for(int i=0;i<s.length();i++){
-            if(isAlphaNumeric(s.charAt(i))) sb.append(s.charAt(i));
-        }
-        return sb.toString().equalsIgnoreCase(sb.reverse().toString());
-    }
-
-    public boolean isAlphaNumeric(char c){
-        return ((c-'a'>=0 && c-'z'<=0) || (c-'A'>=0 && c-'Z'<=0) || (c-'0'>=0 && c-'9'<=0));
+        return Optional.of(s.toLowerCase().chars().filter(Character::isLetterOrDigit).collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)).map(sb->sb.toString().equals(sb.reverse().toString())).orElse(false);
     }
 }
 
-
-public class StringBuilderReversalApproachTest {
+public class StreamApiApproachTest {
     public static void main(String[] args) {
-        SolutionStringBuilderReversalApproachTest solution = new SolutionStringBuilderReversalApproachTest();
+        SolutionStreamApiApproachTest solution = new SolutionStreamApiApproachTest();
         String s1 = "A man, a plan, a canal: Panama";
         String s2 = "race a car";
         String s3 = " ";
@@ -36,4 +30,5 @@ public class StringBuilderReversalApproachTest {
         System.out.println("---------------------------------------------------");
     }
 }
+
 

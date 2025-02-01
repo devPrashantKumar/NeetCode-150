@@ -5,7 +5,7 @@ import java.util.Arrays;
  * Time Complexity O(n)
  * Space Complexity O(1)
  */
-class SolutionTwoPonterApproachTest {
+class SolutionTwoPointerApproachTest {
     public int[] twoSum(int[] numbers, int target) {
         int startIndex=0;
         int endIndex=numbers.length-1;
@@ -19,9 +19,9 @@ class SolutionTwoPonterApproachTest {
     }
 }
 
-public class TwoPonterApproachTest {
+public class TwoPointerApproachTest {
     public static void main(String[] args) {
-        SolutionTwoPonterApproachTest solution = new SolutionTwoPonterApproachTest();
+        SolutionTwoPointerApproachTest solution = new SolutionTwoPointerApproachTest();
         int[] nums1 = { 1,2,3,4 };
         int target1 = 7;
         int[] nums2 = { 1,1,2,3,4 };
