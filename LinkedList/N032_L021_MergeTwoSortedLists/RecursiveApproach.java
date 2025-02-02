@@ -18,7 +18,7 @@ class ListNode {
     }
 }
 
-class SolutionMostOptimisedApproch {
+class SolutionMostOptimisedApproach {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = null;
         ListNode tail = null;
@@ -32,7 +32,6 @@ class SolutionMostOptimisedApproch {
             } else {
                 node = list2;
                 list2 = list2.next;
-
             }
             node.next = null;
             if (tail == null) {
@@ -68,6 +67,6 @@ class SolutionMostOptimisedApproch {
     }
 }
 
-public class MostOptimisedApproch {
+public class RecursiveApproach {
 
 }
