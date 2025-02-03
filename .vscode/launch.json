@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleIterativeSolution2",
+            "request": "launch",
+            "mainClass": "LinkedList.N031_L206_ReverseLinkedList.SimpleIterativeSolution2",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "SimpleIterativeSolution",
+            "request": "launch",
+            "mainClass": "LinkedList.N031_L206_ReverseLinkedList.SimpleIterativeSolution",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "StackApproachOptimisedTest",
             "request": "launch",
             "mainClass": "Stack.N023_LeetCode_150_EvaluateReversePolishNotation.StackApproachOptimisedTest",
