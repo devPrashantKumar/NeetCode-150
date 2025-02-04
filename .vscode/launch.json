@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FloyedCycleDetectionAlgo",
+            "request": "launch",
+            "mainClass": "LinkedList.N033_L141_LinkedListCycleDetection.FloyedCycleDetectionAlgo",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "SimpleApproach",
             "request": "launch",
             "mainClass": "LinkedList.N040_L023_MergeKSortedLinkedLists.SimpleApproach",
