@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleApproach",
+            "request": "launch",
+            "mainClass": "LinkedList.N040_L023_MergeKSortedLinkedLists.SimpleApproach",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "MostOptimisedApproach",
             "request": "launch",
             "mainClass": "LinkedList.N037_L002_AddTwoNumbers.MostOptimisedApproach",
