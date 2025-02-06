@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BruteForceApproachTest",
+            "request": "launch",
+            "mainClass": "TwoPointers.N012_L015_3Sum.BruteForceApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "FloyedCycleDetectionAlgo",
             "request": "launch",
             "mainClass": "LinkedList.N033_L141_LinkedListCycleDetection.FloyedCycleDetectionAlgo",
