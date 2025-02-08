@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleIterativeSolution2",
+            "request": "launch",
+            "mainClass": "SlidingWindow.N010_L125_BestTimeToBuyAndSellStock.SimpleIterativeSolution2",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "SimpleIterativeSolution1",
+            "request": "launch",
+            "mainClass": "SlidingWindow.N010_L125_BestTimeToBuyAndSellStock.SimpleIterativeSolution1",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "HareAndTortoiseAlgorithm",
             "request": "launch",
             "mainClass": "LinkedList.N035_L019_RemoveNodeFromEndofLinkedList.HareAndTortoiseAlgorithm",
