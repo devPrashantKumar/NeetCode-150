@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HareAndTortoiseAlgorithm",
+            "request": "launch",
+            "mainClass": "LinkedList.N035_L019_RemoveNodeFromEndofLinkedList.HareAndTortoiseAlgorithm",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "TwoPointerApproachTest",
             "request": "launch",
             "mainClass": "TwoPointers.N012_L015_3Sum.TwoPointerApproachTest",
