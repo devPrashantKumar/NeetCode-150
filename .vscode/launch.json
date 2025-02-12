@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SlidingWindowSolution1",
+            "request": "launch",
+            "mainClass": "SlidingWindow.N015_L121_BestTimeToBuyAndSellStock.SlidingWindowSolution1",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "SimpleIterativeSolution2",
             "request": "launch",
             "mainClass": "SlidingWindow.N010_L125_BestTimeToBuyAndSellStock.SimpleIterativeSolution2",
