@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleIterativeSolution1",
+            "request": "launch",
+            "mainClass": "Graph.N001_L200_NumberOfIslands.SimpleIterativeSolution1",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "SlidingWindowSolution1",
             "request": "launch",
             "mainClass": "SlidingWindow.N015_L121_BestTimeToBuyAndSellStock.SlidingWindowSolution1",
