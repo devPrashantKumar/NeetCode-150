@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SlidingWindowTest",
+            "request": "launch",
+            "mainClass": "SlidingWindow.L003_LongestSubstringWithoutRepeatingCharacters.SlidingWindowTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "BruteForceTest2",
+            "request": "launch",
+            "mainClass": "BinarySearch.LeetCode_004_MedianOfTwoSortedArrays.BruteForceTest2",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "BruteForceTest",
+            "request": "launch",
+            "mainClass": "BinarySearch.LeetCode_004_MedianOfTwoSortedArrays.BruteForceTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
+            "name": "RecursiveApproachTest",
+            "request": "launch",
+            "mainClass": "Trees.N056_L098_ValidateBinarySearchTree.RecursiveApproachTest",
+            "projectName": "NeetCode-150_99f16b97"
+        },
+        {
+            "type": "java",
             "name": "IterativeApproachTest",
             "request": "launch",
             "mainClass": "Trees.N057_L230_KthSmallestIntegerInBST.IterativeApproachTest",

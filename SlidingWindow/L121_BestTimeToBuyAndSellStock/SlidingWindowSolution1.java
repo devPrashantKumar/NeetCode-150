@@ -1,27 +1,28 @@
-package SlidingWindow.N015_L121_BestTimeToBuyAndSellStock;
+package SlidingWindow.L121_BestTimeToBuyAndSellStock;
 
 import java.util.Arrays;
 
-class SolutionSimpleIterativeSolution1 {
+class SolutionSlidingWindowSolution1 {
     public int maxProfit(int[] prices) {
-        if (prices.length == 0)
-            return 0;
-        int[] min = new int[prices.length];
-        min[0] = prices[0];
-        for (int i = 1; i < prices.length; i++) {
-            min[i] = Math.min(min[i - 1], prices[i]);
+    
+    int buy = 0;  // Left pointer (buy day)
+    int maxProfit = 0;
+
+    for (int sell = 1; sell < prices.length; sell++) {
+        if (prices[sell] < prices[buy]) {
+            buy = sell;  // Update buy day if new min found
+        } else {
+            maxProfit = Math.max(maxProfit, prices[sell] - prices[buy]);
         }
-        int maxProfit = 0;
-        for (int i = 0; i < prices.length; i++) {
-            maxProfit = Math.max(maxProfit, prices[i] - min[i]);
-        }
-        return maxProfit;
+    }
+    return maxProfit;
     }
 }
 
-public class SimpleIterativeSolution1 {
+
+public class SlidingWindowSolution1 {
     public static void main(String[] args) {
-        SolutionSimpleIterativeSolution1 solution = new SolutionSimpleIterativeSolution1();
+        SolutionSlidingWindowSolution1 solution = new SolutionSlidingWindowSolution1();
         int[] nums1 = { 10,1,5,6,7,1 };
         int[] nums2 = {10,8,7,5,2 };
         System.out.println("---------------------------------------------------");
@@ -34,3 +35,4 @@ public class SimpleIterativeSolution1 {
     }
 
 }
+
